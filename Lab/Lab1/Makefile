@@ -32,6 +32,6 @@ build/%.o: src/%.cpp
 
 # Clean
 clean:
-	rm -rf build bin testcase/*.sop
+	rm -rf build bin
 
 .PHONY: all clean
